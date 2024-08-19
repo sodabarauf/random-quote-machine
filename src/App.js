@@ -30,12 +30,12 @@ function App() {
           <div id="quote-box">
             <p id="text">{qouteInfo.text}</p>
             <p id="author">{qouteInfo.author}</p>
-       <div className='row'> 
-        <div className='col'>
-        <button id="new-quote" onClick={getQuote}>New Quote</button>
-        </div>
-       <div className='col'>
-      <a href={`https://twitter.com/intent/tweet?text= ${qouteInfo.text} ${qouteInfo.author}`}
+            <div className='row'> 
+              <div className='col'>
+                <button id="new-quote" onClick={getQuote}>New Quote</button>
+              </div>
+              <div className='col'>
+                <a href={`https://twitter.com/intent/tweet?text= ${qouteInfo.text} ${qouteInfo.author}`}
                   target='_blank'
                   rel='noreferrer'
                   className='btn btn-outline-info '
