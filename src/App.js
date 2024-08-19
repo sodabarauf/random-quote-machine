@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [qouteInfo, setQouteInfo] = useState({})
+  const [qouteInfo, setQouteInfo] = useState({});
 
   useEffect(() => {
     getQuote();
-  }, [])
+  }, []);
 
   const getQuote = () => {
     fetch('https://api.quotable.io/random')
