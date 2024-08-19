@@ -27,27 +27,25 @@ this website contains idea about how creating random machine.
 
 
 ```REACT
-function App() {
-//set state for the fetch API json response (array of quotes) & set state to get a randomized quote
-  const [quotes, setQuotes] = useState([]);
-  const [randomQuote, setRandomQuote] = useState([]);
-//fetch data from API
-  useEffect(() => {
-    async function fetchData(){
-      const response = await fetch('https://type.fit/api/quotes');
-      const data = await response.json();
-//use data to set a random quote into state
-      setQuotes(data);
-      let randomIndex = Math.floor(Math.random() * data.length);
-      setRandomQuote(data[randomIndex]);
-    }
-    ....}
+ const getQuote = () => {
+    fetch('https://api.quotable.io/random')
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        setQouteInfo({
+          text: data.content,
+          author: data.author
+        });
+      });
+  };
+  ....
 ```
 
 ## Demo 📸
 life demo link []
 
-[!screenshot](./assets/capture_240819_234359.png)
+![screenshot](./assets/capture_240819_234359.png)
 
 ## Technologies Used 🛠️
 - HTML
