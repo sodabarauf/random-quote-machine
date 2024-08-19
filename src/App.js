@@ -39,12 +39,11 @@ function App() {
                   target='_blank'
                   rel='noreferrer'
                   className='btn btn-outline-info '
-                  id="tweet-quote"> post to twitter
-            </a> 
+                  id="tweet-quote">post to twitter</a> 
+              </div>
+            </div>
           </div>
-         </div>
-         </div>
-         </div>
+        </div>
       </div>
     </div>
   );
