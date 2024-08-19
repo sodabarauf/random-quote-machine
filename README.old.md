@@ -47,6 +47,8 @@ function App() {
 ## Demo 📸
 life demo link []
 
+[!screenshot](./assets/capture_240819_234359.png)
+
 ## Technologies Used 🛠️
 - HTML
 - CSS
@@ -59,37 +61,6 @@ git@github.com:sodabarauf/random-quote-machine.git
 cd random-quote
 npm install
 npm start
-```
-## Features ⭐
-- This website is a responsive website for mobile and desktop version. 
-
-## Author 👩‍💼
-Sodaba✨Rauf✨
-- Github: [https://github.com/sodabarauf]✔
-- LinkedIn: [https://www.linkedin.com/in/sodaba-r-5a0733255/]✔
-- Email: [sodabarauf4@gmail.com]✔
-
-## Contributing 🤝
-🎇 by using this link you can share your opinion : [https://github.com/sodabarauf/random-quote-machine]
-
- let randomIndex = Math.floor(Math.random() * data.length);
-      setRandomQuote(data[randomIndex]);
-    }
-    ....}
-```
-
-## Demo 📸
-life demo link []
-
-## Technologies Used 🛠️
-- HTML
-- CSS
-- REACT JS
-
-## Installation 💻
-
-```clone
-git@github.com:sodabarauf/random-quote-machine.git
 ```
 ## Features ⭐
 - This website is a responsive website for mobile and desktop version. 
