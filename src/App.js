@@ -26,10 +26,10 @@ function App() {
       <div className="container">
         <div className='jumbotron text-center' id='quote-box'>
           <div className='card'></div>
-      <div className='card-header'>Quotes</div>
-      <div id="quote-box">
-        <p id="text">{qouteInfo.text}</p>
-        <p id="author">{qouteInfo.author}</p>
+          <div className='card-header'>Quotes</div>
+          <div id="quote-box">
+            <p id="text">{qouteInfo.text}</p>
+            <p id="author">{qouteInfo.author}</p>
        <div className='row'> 
         <div className='col'>
         <button id="new-quote" onClick={getQuote}>New Quote</button>
