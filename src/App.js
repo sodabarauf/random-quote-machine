@@ -35,13 +35,12 @@ function App() {
         <button id="new-quote" onClick={getQuote}>New Quote</button>
         </div>
        <div className='col'>
-        <button><a href={`https://twitter.com/intent/tweet?text= ${qouteInfo.text} ${qouteInfo.author}`}
+      <a href={`https://twitter.com/intent/tweet?text= ${qouteInfo.text} ${qouteInfo.author}`}
                   target='_blank'
                   rel='noreferrer'
                   className='btn btn-outline-info '
                   id="tweet-quote"> post to twitter
-            </a>
-            </button> 
+            </a> 
           </div>
          </div>
          </div>
