@@ -1,13 +1,89 @@
+/* General Styles */
 body {
+  background-color: #f0f0f5;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#quote-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
 }
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #666;
+}
+
+#author {
+  font-size: 1rem;
+  font-style: italic;
+  text-align: right;
+  margin-bottom: 1.5rem;
+  color: #888;
+}
+
+#new-quote, #tweet-quote {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#new-quote {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#new-quote:hover {
+  background-color: #45a049;
+}
+
+#tweet-quote {
+  background-color: #1DA1F2;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#tweet-quote:hover {
+  background-color: #0d95e8;
+}
+
+#new-quote, #tweet-quote {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: none;
+}
+
