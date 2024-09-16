@@ -11,7 +11,7 @@ body {
 }
 
 #quote-box {
-  background: #ffffff;
+  background: #fff;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   padding: 30px;
@@ -49,7 +49,8 @@ body {
   margin-bottom: 30px;
 }
 
-button, #tweet-quote {
+button,
+#tweet-quote {
   border-radius: 6px;
   padding: 12px 24px;
   font-size: 1.1rem;
@@ -57,22 +58,20 @@ button, #tweet-quote {
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* New Quote Button */
 button {
-  background: #6a1b9a; /* Deep purple */
-  color: #ffffff;
+  background: #6a1b9a;
+  color: #fff;
   border: none;
 }
 
 button:hover {
-  background: #8e24aa; /* Lighter purple */
+  background: #8e24aa;
   transform: translateY(-2px);
 }
 
-/* Tweet Quote Button */
 #tweet-quote {
-  background: #1e88e5; /* Twitter blue */
-  color: #ffffff;
+  background: #1e88e5;
+  color: #fff;
   border: none;
   display: inline-block;
   text-align: center;
@@ -108,7 +107,8 @@ a:hover {
     font-size: 1.1rem;
   }
 
-  button, #tweet-quote {
+  button,
+  #tweet-quote {
     font-size: 1rem;
     padding: 10px 20px;
   }
@@ -127,7 +127,8 @@ a:hover {
     font-size: 1.2rem;
   }
 
-  button, #tweet-quote {
+  button,
+  #tweet-quote {
     font-size: 1.1rem;
     padding: 12px 24px;
   }
