@@ -6,25 +6,25 @@ Hi guys welcome to my first react app. i make this project because of implementi
 this website contains idea about how creating random machine.
 
 ```REACT
- const getQuote = () => {
-    fetch('https://api.quotable.io/random')
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setQouteInfo({
-          text: data.content,
-          author: data.author
-        });
-      });
-  };
+const data = await response.json();
+      const quotes = data.quotes;
+      const randomIndex = Math.floor(Math.random() * quotes.length);
+      const selectedQuote = quotes[randomIndex]; // Select a random quote
+
+      setQuote(selectedQuote.quote);
+      setAuthor(selectedQuote.author);
+    } catch (error) {
+      console.error('Error fetching the quote: ', error);
+      setQuote('Failed to fetch quote');
+      setAuthor('Unknown');
+    }
   ....
 ```
 
 ## Demo 📸
 life demo link []
 
-![screenshot](./assets/capture_240819_234359.png)
+![screenshot](./assets/new%20capture.jpg)
 
 ## Technologies Used 🛠️
 - HTML
